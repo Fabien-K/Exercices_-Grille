@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(250, 171, 135);
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+header, footer {
+  padding: 50px 0;
+  text-align: center;
+}
+
+section {
+  border: 1px solid red;
+  background-color: rgb(19, 121, 19);
+  text-align: justify;
+  padding: 10px;
+}
+
+@media screen and (min-width: 640px) {
+  section {
+    width: calc(100% / 3);
+    float: left;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  header {
+    display: block;
+  }
+}
+
+@media print {
+  header {
+    display: block;
+  }
+  footer {
+    display: block;
+    border: 3px dashed blue;
+  }
+}
