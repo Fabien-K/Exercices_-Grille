@@ -1,23 +1,139 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercice 2: Météo</title>
-</head>
-<body>
-  <div class="container">
-    <div class="row">
-      <h1 class="col-12 center-text">New York, NY</h1>
-      <p class="col-12">
-        Tuesday, April 15th
-      </p>
-      <p class="col-12">
-        Overcast
-      </p>
-    </div>
-    <div class="row">
-    </div>
-  </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Reponsive Meteo</title>
+    </head>
+    <body>
+        <header> 
+            <p id="date">
+                Tuesday, April 15th <br>
+                Overcast <br>
+            </p>
+            <p id="temps">
+                <img src="./images/rain.svg" alt="icone soleil" 
+                title="Soleil"><span id="nb">31</span><sup>°C</sup>
+            </p>
+            <p id="precipitation">
+              <span class="grey">Précipiation :</span><span> 100%</span>  <br>
+                <span class="grey">Humidité :</span><span> 97%</span> <br>
+                <span class="grey"> Vent :</span><span> 4 mph SW</span>  <br>
+                  <span class="grey">Pollen Count :</span><span> 36</span>
+            </p>
+        </header>
+        <article class="marge">
+            <section id="today">
+                <p>
+                    Today 
+                </p>
+                <p>
+                    <img src="./images/thunder.svg" alt="icone orage">
+                </p>
+                <p>
+                  <span class="bold">68°</span><span class="grey">36°</span> 
+                </p>
+                <p>
+                  <span class="grey">Pollen 36</span>
+                </p>
+            </section>
+        </article>
+        <article class="marge">
+            <section id="mercredi">
+                <p>
+                    Wednesday 
+                </p>
+                <p>
+                    <img src="./images/sun.png" alt="icone du soleil">
+                </p>
+                <p>
+                  <span class="bold">50°</span> <span class="grey">39°</span> 
+                </p>
+                <p>
+                  <span class="grey">Pollen 36</span>
+                </p>
+            </section>
+        </article>
+        <article class="marge">
+            <section id="jeudi">
+                <p>
+                    Thursday 
+                </p>
+                <p>
+                    <img src="./images/sun.png" alt="icone du soleil">
+                </p>
+                <p>
+                  <span class="bold">55°</span> <span class="grey">39°</span> 
+                </p>
+                <p>
+                  <span class="grey">Pollen 36</span>
+                </p>
+            </section>
+        </article>
+        <article class="marge">
+            <section id="vendredi">
+                <p>
+                    Friday 
+                </p>
+                <p>
+                    <img src="./images/sun_cloud.png" alt="icone nuageux">
+                </p>
+                <p>
+                  <span class="bold">54°</span> <span class="grey">43°</span>
+                </p>
+                <p>
+                  <span class="grey">Pollen 36</span>
+                </p>
+            </section>
+        </article>
+        <article class="marge">
+            <section id="samedi">
+                <p>
+                    Saturday 
+                </p>
+                <p>
+                    <img src="./images/rain.svg" alt="icone pluie">
+                </p>
+                <p>
+                  <span class="bold">64°</span> <span class="grey">46°</span> 
+                </p>
+                <p>
+                  <span class="grey">Pollen 36</span>
+                </p>
+            </section>
+        </article>
+        <article class="marge">
+            <section id="dimanche">
+                <p>
+                    Sunday 
+                </p>
+                <p>
+                    <img src="./images/rain.svg" alt="icone pluie">
+                </p>
+                <p>
+                  <span class="bold">64°</span> <span class="grey">50°</span> 
+                </p>
+                <p>
+                  <span class="grey">Pollen 36</span>
+                </p>
+            </section>
+        </article>
+        <article class="marge">
+            <section id="lundi">
+                <p>
+                    Monday 
+                </p>
+                <p>
+                    <img src="./images/sun_cloud.png" alt="icone nuageux">
+                </p>
+                <p>
+                  <span class="bold">61°</span> <span class="grey">50°</span> 
+                </p>
+                <p>
+                  <span class="grey">Pollen 36</span>
+                </p>
+            </section>
+        </article>
+    </body>
 </html>

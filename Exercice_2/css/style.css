@@ -1,3 +1,85 @@
-h1, p {
-  margin: 5px;
+img{
+  width: 30px;
+}
+header{
+  width: 350px;
+}
+.grey{
+  color: gray;
+}
+.bold{
+  font-weight: bold;
+}
+.marge{
+  margin: auto;
+}
+header>p>img
+{
+    float: left;
+}
+header
+{
+    position: relative;
+    max-width: 90%;
+    border-bottom: 2px solid black; 
+}
+#nb
+{
+    font-size: 2.3em;
+    float: left;
+}
+#precipitation
+{
+    margin-left: 60%;
+    min-width: 180px;
+}
+sup
+{
+    float: left;
+}
+article
+{
+    position: relative;
+    max-width: 90%;
+    border-bottom: 2px solid black;
+}
+section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+article>section>p
+{
+    display: inline-block;
+    width: auto;
+}
+article>section>p:first-child
+{
+    font-weight: bold;
+}
+@media screen and (min-width:800px)
+{
+    article>section>p
+    {
+        display: block;
+    }
+    section
+    {
+        display:block;
+    }
+    article
+    {
+        border: none;
+        float: left;
+    }
+    header
+    {
+        border: none;   
+    }
+    .marge
+    {
+        margin-left:5%;
+    }
 }
