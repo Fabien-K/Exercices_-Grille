@@ -1,0 +1,27 @@
+#imgTitre {
+  height: 100%;
+}
+
+#menu > div {
+  height: 50px;
+  border: 2px solid black;
+}
+
+.imgArticle {
+  width: 100px;
+  float: left;
+  margin: 10px 10px 0 0;
+}
+
+.article {
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 4px 0px #656565;
+  padding: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
+  
+}
+
+* {
+  transition: width 0.10s linear;
+}
